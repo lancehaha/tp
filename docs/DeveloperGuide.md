@@ -370,7 +370,7 @@ Step 3. The `FindCommand` get executed and updates the filteredPersonList within
 
 results based on the specified criteria.
 
-<puml src="diagrams/FindSequenceDiagram.puml" alt="FindSequenceDiagram" />
+<puml src="diagrams/FindSequenceDiagram.puml" alt="FindSequenceDiagram" height = "1000" width = "1000" />
 
 ## Export feature
 
