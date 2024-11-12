@@ -1,0 +1,170 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "AboutUs.md",
+      "title": "About Us",
+      "headings": {
+        "about-us": "About Us",
+        "project-team": "Project team",
+        "eda-yeo": "Eda Yeo",
+        "li-yifeng": "Li Yifeng",
+        "he-shi": "He Shi",
+        "sean-foong": "Sean Foong",
+        "chooi-shao-xian": "Chooi Shao Xian"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Configuration.md",
+      "title": "Configuration guide",
+      "headings": {
+        "configuration-guide": "Configuration guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "DevOps.md",
+      "title": "DevOps guide",
+      "headings": {
+        "devops-guide": "DevOps guide",
+        "build-automation": "Build automation",
+        "continuous-integration-ci": "Continuous integration (CI)",
+        "code-coverage": "Code coverage",
+        "repository-wide-checks": "Repository-wide checks",
+        "making-a-release": "Making a release"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "DeveloperGuide.md",
+      "title": "Developer Guide",
+      "headings": {
+        "dormanagerpro-developer-guide": "DorManagerPro Developer Guide",
+        "acknowledgements": "Acknowledgements",
+        "setting-up-getting-started": "Setting up, getting started",
+        "design": "Design",
+        "architecture": "Architecture",
+        "ui-component": "UI component",
+        "logic-component": "Logic component",
+        "model-component": "Model component",
+        "storage-component": "Storage component",
+        "common-classes": "Common classes",
+        "implementation": "Implementation",
+        "undo-feature": "Undo feature",
+        "clean-feature": "Clean feature",
+        "update-find-command": "Update Find Command",
+        "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
+        "appendix-requirements": "Appendix: Requirements",
+        "product-scope": "Product scope",
+        "user-stories": "User stories",
+        "use-cases": "Use cases",
+        "non-functional-requirements": "Non-Functional Requirements",
+        "glossary": "Glossary",
+        "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
+        "launch-and-shutdown": "Launch and shutdown",
+        "deleting-a-person": "Deleting a person",
+        "saving-data": "Saving data",
+        "adding-a-person": "Adding a person",
+        "undo-a-command": "Undo a command",
+        "deleting-all-graduated-students": "Deleting all graduated students",
+        "appendix-planned-enhancements": "Appendix: Planned enhancements",
+        "appendix-effort": "Appendix: Effort",
+        "overview": "Overview",
+        "challenges-faced": "Challenges faced"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Documentation.md",
+      "title": "Documentation guide",
+      "headings": {
+        "documentation-guide": "Documentation Guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Logging.md",
+      "title": "Logging guide",
+      "headings": {
+        "logging-guide": "Logging guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "SettingUp.md",
+      "title": "Setting up and getting started",
+      "headings": {
+        "setting-up-and-getting-started": "Setting up and getting started",
+        "setting-up-the-project-in-your-computer": "Setting up the project in your computer",
+        "before-writing-code": "Before writing code"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "Testing.md",
+      "title": "Testing guide",
+      "headings": {
+        "testing-guide": "Testing guide",
+        "running-tests": "Running tests",
+        "types-of-tests": "Types of tests"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "UserGuide.md",
+      "title": "User Guide",
+      "headings": {
+        "dormanagerpro-user-guide": "DorManagerPro User Guide",
+        "table-of-contents": "Table of Contents",
+        "quick-start": "Quick start",
+        "features": "Features",
+        "viewing-help-help": "Viewing help : help",
+        "adding-a-person-add": "Adding a person: add",
+        "listing-all-persons-list": "Listing all persons : list",
+        "editing-a-person-edit": "Editing a person : edit",
+        "finding-a-person-find": "Finding a person: find",
+        "deleting-a-person-delete": "Deleting a person : delete",
+        "clearing-all-entries-clear": "Clearing all entries : clear",
+        "cleaning-graduated-students-clean": "Cleaning graduated students : clean",
+        "undoing-the-previous-command-undo": "Undoing the previous command : undo",
+        "exiting-the-program-exit": "Exiting the program : exit",
+        "saving-the-data": "Saving the data",
+        "manual-saving-export": "Manual saving: export",
+        "manual-data-restoration-import": "Manual data restoration: import",
+        "editing-the-data-file": "Editing the data file",
+        "faq": "FAQ",
+        "known-issues": "Known issues",
+        "command-summary": "Command summary",
+        "field-constraints": "Field constraints",
+        "name": "Name",
+        "phone-number": "Phone number",
+        "email": "Email",
+        "address": "Address",
+        "tags": "Tags",
+        "room-number": "Room number",
+        "emergency-contact-name": "Emergency contact name",
+        "emergency-contact-phone-number": "Emergency contact phone number",
+        "graduation-year": "Graduation year",
+        "glossary": "Glossary"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "DorManagerPro",
+      "headings": {
+        "dormanagerpro": "DorManagerPro"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/johndoe.md",
+      "title": "John Doe's Project Portfolio Page",
+      "headings": {
+        "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}

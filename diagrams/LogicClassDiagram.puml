@@ -1,0 +1,62 @@
+@startuml
+!include style.puml
+skinparam arrowThickness 1.1
+skinparam arrowColor LOGIC_COLOR_T4
+skinparam classBackgroundColor LOGIC_COLOR
+
+package Logic as LogicPackage {
+
+package "Parser Classes" as ParserClasses{
+}
+Class A_Command
+Class B_Command
+Class ImportCommand
+Class ExportCommand
+Class CommandResult
+Class "{abstract}\nCommand" as Command
+Class "<<interface>>\nUndoable" as Undoable
+Class "{abstract}\nFileAccessCommand" as FileAccessCommand
+
+
+Class "<<interface>>\nLogic" as Logic
+Class LogicManager
+}
+
+package Model {
+Class HiddenModel #FFFFFF
+}
+
+package Storage {
+}
+
+Class HiddenOutside #FFFFFF
+HiddenOutside ..> Logic
+
+LogicManager .right.|> Logic
+LogicManager -right->"1" ParserClasses
+ParserClasses ..> A_Command : <<create>>
+ParserClasses ..> B_Command : <<create>>
+
+FileAccessCommand -up-|> Command
+A_Command .up.|> Undoable
+A_Command -up-|> Command
+B_Command -up-|> Command
+ExportCommand -up-|> FileAccessCommand
+ImportCommand -up-|> FileAccessCommand
+ImportCommand .up.|> Undoable
+LogicManager .left.> Command : <<call>>
+
+LogicManager --> Model
+LogicManager --> Storage
+FileAccessCommand .up.> Storage
+Storage --[hidden] Model
+Command .[hidden]up.> Storage
+Command .right.> Model
+Model ..> Undoable
+note bottom of A_Command: Commands that can be undone: \nAddCommand, DeleteCommand, etc.
+note right of B_Command: Commands that cannot be undone: \nListCommand, UndoCommand, etc.
+
+Logic ..> CommandResult
+LogicManager .down.> CommandResult
+Command .up.> CommandResult : <<create>>
+@enduml
